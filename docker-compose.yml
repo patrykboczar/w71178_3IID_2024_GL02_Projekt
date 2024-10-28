@@ -1,0 +1,6 @@
+﻿services:
+  kino:
+    image: kino
+    build:
+      context: .
+      dockerfile: kino/Dockerfile
